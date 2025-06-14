@@ -1,0 +1,43 @@
+/* ============================== */
+/* Estilos para portafolio.html */
+/* ============================== */
+
+.img-evidencia {
+    width: 600px;
+    height: 400px;
+    object-fit: cover; /* o "contain" si quieres mostrar todo */
+    border-radius: 6px; /* opcional */
+  }
+
+  .custom-header {
+    background-image: url("../img/navbar.jpg"); /* Ajusta ruta si es necesario */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+  }
+
+.bg-header {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+}
+
+.card-body .card-title {
+  font-weight: 600;
+}
+
+.card-body .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn-outline-primary.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+ /* Footer */
+ footer {
+    background-color: #1D251F;
+    color: white;
+  }
